@@ -21,7 +21,7 @@ setMethod (
     .method.as.db.data.frame.1(x, table.name, conn.id,
                                add.row.names, key,
                                distributed.by, is.temp, ...),
-    valueClass = "db.data.frame")
+    valueClass = "db.table")
 
 ## ------------------------------------------------------------------------
 
@@ -37,7 +37,7 @@ setMethod (
     .method.as.db.data.frame.1(x, table.name, conn.id,
                                add.row.names, key,
                                distributed.by, is.temp, ...),
-    valueClass = "db.data.frame")
+    valueClass = "db.table")
 
 ## ------------------------------------------------------------------------
 
@@ -192,4 +192,4 @@ setMethod (
         res@.appear.name <- appear
         res
     },
-    valueClass = "db.data.frame")
+    valueClass = "db.table")
